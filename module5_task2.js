@@ -1,5 +1,5 @@
 let x = 1;
-switch (typeof x !== 'symbol' && (isFinite(x) || typeof(x) === "string") && typeof(x)) {
+switch (typeof x) {
   case 'number':
     console.log('x - число');
     break;
